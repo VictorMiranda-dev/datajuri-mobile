@@ -1,0 +1,20 @@
+Buscando o registro conhecido (pasta 4004632-35.2025.8.26.0451) com todos os campos candidatos...
+
+REGISTRO ENCONTRADO:
+{
+  "id": "472060",
+  "valorCausa": "30.000,00",
+  "valorProvisionado": "31.092,82",
+  "posicaoCliente": "Réu",
+  "assunto": "Caixa de Esgoto",
+  "natureza": "Cível",
+  "pasta": "4004632-35.2025.8.26.0451"
+}
+
+======================================================================
+COMPARACAO COM O GABARITO DO ARQUIVO XLS:
+======================================================================
+Valor da Causa esperado: 30000       | veio 'valorCausa': 30.000,00
+Valor Provisionado Atualizado esperado: 31092.82 | veio 'valorProvisionado': 31.092,82
+                                                  | veio 'valorProvisionadoAtualizado': None
+Possibilidade de Perda esperada: Possivel | veio 'possibilidadePerda': None

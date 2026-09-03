@@ -1,0 +1,45 @@
+name: Atualizar Dashboard de Prazos 24/7
+
+on:
+  schedule:
+    # Executa de segunda a sexta as 07h, 12h e 17h (Horario de Brasilia - UTC-3)
+    - cron: "0 10,15,20 * * 1-5"
+  workflow_dispatch: # Permite atualizar manualmente com 1 clique a qualquer hora
+
+jobs:
+  atualizar_e_publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Baixar codigo do repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          pip install requests
+
+      - name: Consultar API DataJuri e Gerar Dashboard
+        env:
+          DATAJURI_BASIC_AUTH: ${{ secrets.DATAJURI_BASIC_AUTH }}
+          DATAJURI_USERNAME: ${{ secrets.DATAJURI_USERNAME }}
+          DATAJURI_PASSWORD: ${{ secrets.DATAJURI_PASSWORD }}
+        run: |
+          python3 gerar_dashboard_prazos_v13.py
+          mkdir -p public
+          cp dashboard_prazos.html public/index.html
+          cp web_app/manifest.json public/manifest.json
+
+      - name: Publicar no GitHub Pages Seguro (HTTPS)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

@@ -1,0 +1,37 @@
+======================================================================
+TESTE 1: Confirmar autenticacao e ver dados do token
+======================================================================
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ2aWN0b3IubWlyYW5kYUBwYWNhZW1idS5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiYVhlRTA3cDkxdHpHSnFPdU1jR1NINWJaa2tNIiwiY2xpZW50X2lkIjoiamZhOGg4b3o0NWZzamdjMzRyNHQiLCJzY29wZSI6WyJkajQiXX0.vrsPEjxf9ez2y6ri_BeQMwNqZzfZAcZqxqCWNuC-Jt8",
+  "token_type": "bearer",
+  "scope": "dj4",
+  "jti": "aXeE07p91tzGJqOuMcGSH5bZkkM"
+}
+
+======================================================================
+TESTE 2: Pedir a lista de todas as entidades disponiveis
+======================================================================
+/entidades -> status 404
+
+/entidades/ -> status 404
+
+/entidade -> status 404
+
+======================================================================
+TESTE 3: Confirmar que a entidade Processo funciona (controle positivo)
+======================================================================
+Status: 200
+Registros na pagina 0: 20
+listSize (total geral, se disponivel): 5466.0
+
+======================================================================
+TESTE 4: Testar entidades do modulo financeiro/juridico que ainda nao tentamos
+======================================================================
+Atividade            -> status 200
+Andamento            -> status 404
+Pessoa               -> status 200
+Cliente              -> status 403
+Adverso              -> status 404
+Usuario              -> status 200
+Escritorio           -> status 404
+CampoPersonalizado   -> status 403

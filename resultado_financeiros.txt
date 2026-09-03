@@ -1,0 +1,9 @@
+Status: 200
+
+✅ Campos financeiros encontrados:
+
+  'id': 473497
+  'pasta': 0009093-20.2026.8.16.0045
+  'valorCausa': 60.000,00
+  'valorProvisionado': 60.000,00
+  'risco': 

@@ -1,0 +1,26 @@
+BASIC_AUTH: ***
+USERNAME: victor.miranda@pacaembu.com
+
+Autenticando...
+OAuth Status: 200
+✅ Token obtido: eyJhbGciOiJIUzI1NiIs...
+
+API Status: 200
+✅ JSON válido!
+
+🔍 CAMPOS ENCONTRADOS NESTE PROCESSO:
+
+Todos os campos:
+  'adverso.nome': Beatriz Aparecida Marques Borges
+  'adversoId': 551249
+  'advogadoCliente.nome': Bruno - Escritório RST&A
+  'advogadoClienteId': 551158
+  'cliente.nome': Pacaembu Arapongas 2 - Empreendimento Imobiliarios Ltda.
+  'clienteId': 512725
+  'faseAtual.numero': 0009093-20.2026.8.16.0045
+  'faseAtualId': 513984
+  'id': 473497.0
+  'localizacaoFisica': Arapongas - Bem Viver Arapongas 2
+  'pasta': 0009093-20.2026.8.16.0045
+  'status': Aguardando Citação
+  'tipoAcao': Ordinário - Conhecimento

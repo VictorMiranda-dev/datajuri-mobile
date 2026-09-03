@@ -1,0 +1,185 @@
+Autenticando na API DataJuri...
+Descobrindo campos opcionais (valor, prognostico, cidade, data)...
+  natureza          -> natureza
+  assunto           -> assunto
+  instancia         -> faseAtual.instancia
+  estado            -> faseAtual.estado
+  cidade            -> faseAtual.localidade
+  valorCausa        -> valorCausa
+  valorProvisionado -> valorProvisionado
+  prognostico       -> prognostico
+  dataDistribuicao  -> dataCadastro
+  tipoAcao          -> tipoAcao
+  varaFase          -> faseAtual.vara
+  tipoFase          -> faseAtual.tipo
+  grupoResponsavel  -> grupoResponsavel.nome
+  dataAbertura      -> dataAbertura
+  valorCausaAtualizado-> valorCausaAtualizado
+  valorProvisionadoAtualizado-> valorProvisionadoAtualizado
+Buscando processos...
+  Pagina 1: 67 validos
+  Pagina 2: 52 validos
+  Pagina 3: 60 validos
+  Pagina 4: 33 validos
+  Pagina 5: 62 validos
+  Pagina 6: 49 validos
+  Pagina 7: 48 validos
+  Pagina 8: 37 validos
+  Pagina 9: 34 validos
+  Pagina 10: 30 validos
+  Pagina 11: 31 validos
+  Pagina 12: 34 validos
+  Pagina 13: 37 validos
+  Pagina 14: 40 validos
+  Pagina 15: 43 validos
+  Pagina 16: 35 validos
+  Pagina 17: 20 validos
+  Pagina 18: 12 validos
+  Pagina 19: 23 validos
+  Pagina 20: 24 validos
+  Pagina 21: 10 validos
+  Pagina 22: 18 validos
+  Pagina 23: 30 validos
+  Pagina 24: 25 validos
+  Pagina 25: 4 validos
+  Pagina 26: 10 validos
+  Pagina 27: 5 validos
+  Pagina 28: 7 validos
+  Pagina 29: 4 validos
+  Pagina 30: 8 validos
+  Pagina 31: 19 validos
+  Pagina 32: 20 validos
+  Pagina 33: 13 validos
+  Pagina 34: 10 validos
+  Pagina 35: 18 validos
+  Pagina 36: 4 validos
+  Pagina 37: 1 validos
+  Pagina 38: 0 validos
+  Pagina 39: 4 validos
+  Pagina 40: 6 validos
+  Pagina 41: 10 validos
+  Pagina 42: 3 validos
+  Pagina 43: 4 validos
+  Pagina 44: 1 validos
+  Pagina 45: 2 validos
+  Pagina 46: 2 validos
+  Pagina 47: 2 validos
+  Pagina 48: 0 validos
+  Pagina 49: 6 validos
+  Pagina 50: 2 validos
+  Pagina 51: 0 validos
+  Pagina 52: 0 validos
+  Pagina 53: 4 validos
+  Pagina 54: 2 validos
+  Pagina 55: 1 validos
+Total bruto : 5485
+Total valido: 1026
+
+Status encontrados na base bruta (top 15):
+   2869 x 'Encerrado'  (excluido)
+   1802 x 'Ativo'  [ATIVO]
+    514 x 'Arquivado'  (excluido)
+     97 x 'Aguardando Citação'  [ATIVO]
+     48 x 'Pendente'  (excluido)
+     40 x 'Suspenso'  (excluido)
+     33 x 'Arquivado - não Pacaembu'  (excluido)
+     20 x 'Ativo - não Pacaembu'  [ATIVO]
+     17 x 'Aguardando Notificação'  [ATIVO]
+     14 x 'Cancelado'  (excluido)
+      9 x 'Extinto com Resolução'  (excluido)
+      7 x 'Extinto sem Resolução'  (excluido)
+      6 x 'Pendente de Citação'  (excluido)
+      5 x 'Encerrado - sem notificação'  (excluido)
+      3 x 'Acordo Homologado'  (excluido)
+Backup salvo em: processos_datajuri.csv
+
+======================================================================
+DIAGNOSTICO DOS CAMPOS
+======================================================================
+
+[prognostico] -> API: 'prognostico'
+  Vazios: 1026 de 1026
+  Valores unicos: 0
+
+[natureza] -> API: 'natureza'
+  Vazios: 3 de 1026
+  Valores unicos: 4
+      683 x 'Cível'
+      255 x 'Trabalhista'
+       48 x 'Processo Cível'
+       37 x 'Tributário'
+
+[instancia] -> API: 'faseAtual.instancia'
+  Vazios: 17 de 1026
+  Valores unicos: 1
+     1009 x 'Primeira Instância'
+
+[estado] -> API: 'faseAtual.estado'
+  Vazios: 21 de 1026
+  Valores unicos: 13
+      744 x 'SP'
+      199 x 'PR'
+       27 x 'MT'
+       10 x 'MG'
+        8 x 'PI'
+        4 x 'PA'
+        4 x 'MA'
+        2 x 'DF'
+        2 x 'PE'
+        2 x 'PB'
+        1 x 'BA'
+        1 x 'GO'
+        1 x 'AM'
+
+[valorCausa] -> API: 'valorCausa'
+  Vazios: 0 | Zero: 14 | Com valor: 1012 | Soma: R$ 185.305.294,13
+  Amostras (bruto -> parseado):
+    '110.784,86' -> 110784.86
+    '60.000,00' -> 60000.0
+    '60.000,00' -> 60000.0
+
+[valorCausaAtualizado] -> API: 'valorCausaAtualizado'
+  Vazios: 1026 | Zero: 0 | Com valor: 0 | Soma: R$ 0,00
+
+[valorProvisionado] -> API: 'valorProvisionado'
+  Vazios: 0 | Zero: 331 | Com valor: 695 | Soma: R$ 154.426.393,01
+  Amostras (bruto -> parseado):
+    '60.000,00' -> 60000.0
+    '60.000,00' -> 60000.0
+    '60.000,00' -> 60000.0
+
+[valorProvisionadoAtualizado] -> API: 'valorProvisionadoAtualizado'
+  Vazios: 1026 | Zero: 0 | Com valor: 0 | Soma: R$ 0,00
+
+[dataDistribuicao] -> API: 'dataCadastro'
+  Vazios: 0 | Parseou OK: 1026 | Nao parseou: 0
+  Distribuicao por ano (top 10):
+      331 x 2026
+      265 x 2025
+      160 x 2024
+      103 x 2023
+       35 x 2019
+       28 x 2020
+       25 x 2022
+       23 x 2021
+       21 x 2017
+        9 x 2014
+
+[dataAbertura] -> API: 'dataAbertura'
+  Vazios: 0 | Parseou OK: 1026 | Nao parseou: 0
+  Distribuicao por ano (top 10):
+      358 x 2026
+      253 x 2025
+      151 x 2024
+       99 x 2023
+       35 x 2019
+       26 x 2020
+       25 x 2022
+       22 x 2021
+       21 x 2017
+        9 x 2014
+
+======================================================================
+UF resolvida por: {'campo estado': 970, '-': 34, 'CNJ': 22}
+Dashboard salvo em: dashboard_contencioso.html
+Abra: open dashboard_contencioso.html

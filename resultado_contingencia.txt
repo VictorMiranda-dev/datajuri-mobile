@@ -1,0 +1,90 @@
+Token obtido com sucesso.
+
+======================================================================
+TESTE 1: Tentando acessar o link do relatorio diretamente
+======================================================================
+Status: 200
+URL final (apos redirecionamentos): https://dj4.datajuri.com.br/CRelatorio.jw?id=178443&acao=gerar&urlRet=LRelatorio.jw
+Primeiros 500 caracteres da resposta:
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+<html>
+<head> 
+<title>Login - DataJuri - Software Jurídico</title>
+<link href="/css/padrao.css;jsessionid=2656EFE47F781C4EC80E0510D546D055" rel="stylesheet" type="text/css" >
+</head>
+<body>
+
+<div id="divBarraSuperior"  >
+<div id="divLogo" style="margin-top: 0px;margin-left: 0px" >
+<img src="img/logdata.svg" alt="Logo" ></div>
+<div class="tituloLogo"  style="margin-top: 15px">O
+
+======================================================================
+TESTE 2: Tentando entidades que podem conter dados de contingencia
+======================================================================
+----------------------------------------------------------------------
+Testando entidade: Processo
+Status: 200
+Resposta OK mas sem registros de exemplo. Corpo bruto:
+{
+  "rows": [
+    {
+      "id": 473497.0,
+      "pasta": "0009093-20.2026.8.16.0045",
+      "cliente.nome": "Pacaembu Arapongas 2 - Empreendimento Imobiliarios Ltda.",
+      "clienteId": "512725",
+      "localizacaoFisica": "Arapongas - Bem Viver Arapongas 2",
+      "adverso.nome": "Beatriz Aparecida Marques Borges",
+      "adversoId": "551249",
+      "advogadoCliente.nome": "Bruno - Escritório RST&A",
+      "advogadoClienteId": "551158",
+      "faseAtual.numero": "0009093-20.2026.8.16.0045",
+      "faseAtualId": "513984",
+      "tipoAcao": "Ordinário - Conhecimento",
+      "status": "Aguardando Citação"
+    },
+    {
+      "id": 473484.0,
+      "pasta": "4010128-11.2026.8.26.0451",
+      "cliente.nome": "Pacaembu Construtora S/A",
+      "clienteId": "91945",
+      "localizacaoFisica": "Piracicaba - Comviva - Fase 2",
+      "adverso.nome": "Diego Antony da Silva Ricucci",
+      "adversoId": "551239",
+      "advogadoCliente.nome": "Thaia - Escritório RST&A",
+      "advogadoClienteId": "5
+
+----------------------------------------------------------------------
+Testando entidade: Contingencia
+Status: 404
+Resposta: {"timestamp":"2026-07-19T22:30:11.455+00:00","status":404,"error":"","message":"Dao não encontrado!","path":"/v1/entidades/Contingencia"}
+
+----------------------------------------------------------------------
+Testando entidade: ContingenciaCivel
+Status: 404
+Resposta: {"timestamp":"2026-07-19T22:30:12.010+00:00","status":404,"error":"","message":"Dao não encontrado!","path":"/v1/entidades/ContingenciaCivel"}
+
+----------------------------------------------------------------------
+Testando entidade: Provisao
+Status: 404
+Resposta: {"timestamp":"2026-07-19T22:30:12.573+00:00","status":404,"error":"","message":"Dao não encontrado!","path":"/v1/entidades/Provisao"}
+
+----------------------------------------------------------------------
+Testando entidade: ProvisaoCivel
+Status: 404
+Resposta: {"timestamp":"2026-07-19T22:30:13.099+00:00","status":404,"error":"","message":"Dao não encontrado!","path":"/v1/entidades/ProvisaoCivel"}
+
+----------------------------------------------------------------------
+Testando entidade: RelatorioContingencia
+Status: 404
+Resposta: {"timestamp":"2026-07-19T22:30:13.649+00:00","status":404,"error":"","message":"Dao não encontrado!","path":"/v1/entidades/RelatorioContingencia"}
+
+======================================================================
+FIM DOS TESTES
+======================================================================
+Me manda toda essa saida que eu identifico o caminho certo.

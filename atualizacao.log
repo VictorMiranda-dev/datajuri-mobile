@@ -1,0 +1,43 @@
+=== dom 19 jul 2026 19:25:46 -03 - Iniciando atualizacao ===
+Autenticando na API DataJuri...
+  URL: https://api.datajuri.com.br/oauth/token
+  Usuario: victor.miranda@pacaembu.com
+  Basic Auth (primeiros 10 chars): amZhOGg4b3...
+  Status HTTP retornado: 200
+  Corpo da resposta: '{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ2aWN0b3IubWlyYW5kYUBwYWNhZW1idS5jb20iLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiYVhlRTA3cDkxdHpHSnFPdU1jR1NINWJaa2tNIiwiY2xpZW50X2lkIjoiamZhOGg4b3o0NWZzamdjMzRyNHQiLCJzY29wZSI6WyJkajQiXX0.vrsPEjxf9ez2y6ri_BeQMwNqZzfZAcZqxqCWNuC-Jt8","token_type":"bearer","scope":"dj4","jti":"aXeE07p91tzGJqOuMcGSH5bZkkM"}'
+  Headers da resposta: {'Date': 'Sun, 19 Jul 2026 22:25:47 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'AWSALBTG=X/w8K4v2DZBP9ptO0DX0AQlIOGCIOM/WUGEUpGuv0BnXupAj0uZrELjNCFq0OCxZ3WcDlB3M+Xfe1W+hFs5SlM4X1UvyArtebtf1FTzPcAIOx1VA6bGVypQvXk47TKjrlB1AtW3zYewax6KmS3+bhBgYfPe/LjRIwhMfojS2u/+A; Expires=Sun, 26 Jul 2026 22:25:47 GMT; Path=/, AWSALBTGCORS=X/w8K4v2DZBP9ptO0DX0AQlIOGCIOM/WUGEUpGuv0BnXupAj0uZrELjNCFq0OCxZ3WcDlB3M+Xfe1W+hFs5SlM4X1UvyArtebtf1FTzPcAIOx1VA6bGVypQvXk47TKjrlB1AtW3zYewax6KmS3+bhBgYfPe/LjRIwhMfojS2u/+A; Expires=Sun, 26 Jul 2026 22:25:47 GMT; Path=/; SameSite=None; Secure', 'Cache-Control': 'no-store', 'Pragma': 'no-cache', 'X-Content-Type-Options': 'nosniff', 'X-XSS-Protection': '1; mode=block', 'Strict-Transport-Security': 'max-age=31536000 ; includeSubDomains', 'X-Frame-Options': 'DENY'}
+Token obtido com sucesso.
+
+======================================================================
+PARTE 1: Extraindo ANDAMENTOS dos processos...
+======================================================================
+Buscando página 0...
+  [DEBUG] Resposta crua da API (primeiros 1000 caracteres): {'rows': [{'id': '23623187', 'data': '17/07/2026 00:00', 'processoId': '460300', 'descricao': 'Publicação Diário de Justiça Eletrônico Nacional', 'observacao': 'Órgão:  1ª Vara Cível de Londrina \n Data de disponibilização:   17/07/2026 \n Tipo de comunicação:   Intimação \n Meio:   Diário de Justiça Eletrônico Nacional \n Parte(s)  \nPACAEMBU CONSTRUTORA S.A.(P) \nPAULO MARCELO PELLEGRINI(A) \n Advogado(s)  \nDÊNIS AUGUSTO RAMOS LOPES(PR 102061) \nCELSO JOSÉ BONIFÁCIO JUNIOR(PR 102065) \nDANIANI RIBEIRO PINTO(SP 191126) \n \nPODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE LONDRINA - FORO CENTRAL DE LONDRINA 1ª VARA CÍVEL DE LONDRINA - PROJUDI Avenida Duque de Caxias, 689 - Anexo I, 4º Andar - Caiçaras - Londrina/PR - CEP: 86.015-902 - Fone: (43) 3066-1290 - Celular: (43) 99193-1290 - E-mail: LON-1VJ-E@tjpr.jus.br Processo:   0061383-76.2024.8.16.0014 Classe Processual:   Procedimento Comum Cível Assunto Principal:   Vícios de Construção Valor da Causa:   R$40.0
+  -> 200 registros nesta página (total acumulado: 200)
+Buscando página 1...
+  [DEBUG] Resposta crua da API (primeiros 1000 caracteres): {'rows': [{'id': '23498431', 'data': '30/04/2026 00:00', 'processoId': '471101', 'descricao': 'Publicação Diário de Justiça Eletrônico Nacional', 'observacao': 'Órgão:  3ª Vara Cível de Londrina \n Data de disponibilização:   30/04/2026 \n Tipo de comunicação:   Intimação \n Meio:   Diário de Justiça Eletrônico Nacional \n Parte(s)  \nPACAEMBU CONSTRUTORA S.A.(P) \nPAULO SéRGIO SANTOS DA SILVA(A) \n Advogado(s)  \nCELSO JOSÉ BONIFÁCIO JUNIOR(PR 102065) \nDANIANI RIBEIRO PINTO(SP 191126) \nDÊNIS AUGUSTO RAMOS LOPES(PR 102061) \n \n  PODER JUDICIÁRIO DO ESTADO DO PARANÁ COMARCA DA REGIÃO METROPOLITANA DE LONDRINA - FORO CENTRAL DE LONDRINA 3ª VARA CÍVEL DE LONDRINA - PROJUDI Av. Duque de Caxias, 689 - Anexo I, 4º Andar - Caiçaras - Londrina/PR - CEP: 86.015-902 - Fone: (43) 3342-0524 - E-mail: lon-3vj-e@tjpr.jus.br Autos nº. 0075433-73.2025.8.16.0014   Processo:   0075433-73.2025.8.16.0014 Classe Processual:   Procedimento Comum Cível Assunto Principal:   Vícios de Construção Valor da Ca
+  -> 40 registros nesta página (total acumulado: 240)
+CSV salvo em: andamentos_datajuri.csv
+Relatório HTML salvo em: relatorio_datajuri.html
+
+======================================================================
+PARTE 2: Extraindo ATIVIDADES/PRAZOS...
+======================================================================
+Filtrando atividades com Prazo do Encarregado >= 01/07/2026
+
+Buscando página 0...
+  -> 682 registros (acumulado: 682 de 682)
+CSV salvo em: atividades_datajuri.csv
+Dashboard salvo em: dashboard_prazos.html
+
+======================================================================
+CONCLUÍDO! Arquivos gerados:
+  - andamentos_datajuri.csv
+  - relatorio_datajuri.html
+  - atividades_datajuri.csv
+  - dashboard_prazos.html
+======================================================================
+Carregados 682 registro(s) do CSV.
+Dashboard salvo em: dashboard_prazos.html
+Abra esse arquivo no navegador para visualizar.
+=== dom 19 jul 2026 19:25:59 -03 - Atualizacao concluida ===

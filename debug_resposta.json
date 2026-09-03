@@ -1,0 +1,148 @@
+{
+  "rows": [
+    {
+      "id": "473497",
+      "pasta": "0009093-20.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473484",
+      "pasta": "4010128-11.2026.8.26.0451",
+      "valorCausa": "68.603,03",
+      "valorProvisionado": "68.603,03",
+      "risco": ""
+    },
+    {
+      "id": "473478",
+      "pasta": "0212-26",
+      "valorCausa": "0,00",
+      "valorProvisionado": "0,00",
+      "risco": ""
+    },
+    {
+      "id": "473477",
+      "pasta": "0211-26",
+      "valorCausa": "0,00",
+      "valorProvisionado": "0,00",
+      "risco": ""
+    },
+    {
+      "id": "473476",
+      "pasta": "0210-26",
+      "valorCausa": "0,00",
+      "valorProvisionado": "0,00",
+      "risco": ""
+    },
+    {
+      "id": "473475",
+      "pasta": "0209-26",
+      "valorCausa": "0,00",
+      "valorProvisionado": "0,00",
+      "risco": ""
+    },
+    {
+      "id": "473470",
+      "pasta": "0009221-40.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473469",
+      "pasta": "0009094-05.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473468",
+      "pasta": "0009098-42.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473458",
+      "pasta": "0011469-67.2026.5.15.0041",
+      "valorCausa": "6.091,97",
+      "valorProvisionado": "0,00",
+      "risco": ""
+    },
+    {
+      "id": "473457",
+      "pasta": "0011288-85.2026.5.15.0067",
+      "valorCausa": "178.801,08",
+      "valorProvisionado": "0,00",
+      "risco": ""
+    },
+    {
+      "id": "473456",
+      "pasta": "0009092-35.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473455",
+      "pasta": "0009089-80.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473454",
+      "pasta": "0009381-65.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473446",
+      "pasta": "0007059-72.2026.8.16.0045",
+      "valorCausa": "40.000,00",
+      "valorProvisionado": "40.260,00",
+      "risco": ""
+    },
+    {
+      "id": "473445",
+      "pasta": "0009380-80.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473443",
+      "pasta": "0009375-58.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473439",
+      "pasta": "0009215-33.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473429",
+      "pasta": "0009112-26.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    },
+    {
+      "id": "473428",
+      "pasta": "0009088-95.2026.8.16.0045",
+      "valorCausa": "60.000,00",
+      "valorProvisionado": "60.000,00",
+      "risco": ""
+    }
+  ],
+  "listSize": 5466.0,
+  "modulo": "Processo",
+  "pageSize": 20.0,
+  "page": 0.0
+}

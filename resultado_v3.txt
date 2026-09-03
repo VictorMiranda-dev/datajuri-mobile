@@ -1,0 +1,29 @@
+Token obtido. Testando 25 campos (isolados desta vez)...
+
+VAZIO| dataAbertura                 -> resposta sem registros
+VAZIO| data.abertura                -> resposta sem registros
+VAZIO| valorCausa                   -> resposta sem registros
+VAZIO| valorDaCausa                 -> resposta sem registros
+VAZIO| valor                        -> resposta sem registros
+VAZIO| valorProvisionado            -> resposta sem registros
+VAZIO| valorProvisionadoAtualizado  -> resposta sem registros
+VAZIO| valorProvisao                -> resposta sem registros
+VAZIO| possibilidadePerda           -> resposta sem registros
+VAZIO| probabilidadePerda           -> resposta sem registros
+VAZIO| posicaoCliente               -> resposta sem registros
+VAZIO| qualificacaoCliente          -> resposta sem registros
+VAZIO| instanciaFaseAtual           -> resposta sem registros
+VAZIO| faseAtual.instancia          -> resposta sem registros
+VAZIO| localidadeFaseAtual          -> resposta sem registros
+VAZIO| faseAtual.localidade         -> resposta sem registros
+VAZIO| numeroVaraFaseAtual          -> resposta sem registros
+VAZIO| faseAtual.numeroVara         -> resposta sem registros
+VAZIO| varaFaseAtual                -> resposta sem registros
+VAZIO| faseAtual.vara               -> resposta sem registros
+VAZIO| advogadoAdverso.nome         -> resposta sem registros
+VAZIO| responsavel.nome             -> resposta sem registros
+VAZIO| natureza                     -> resposta sem registros
+VAZIO| assunto                      -> resposta sem registros
+VAZIO| assuntoPrincipal             -> resposta sem registros
+
+FIM. Me manda essa lista completa.

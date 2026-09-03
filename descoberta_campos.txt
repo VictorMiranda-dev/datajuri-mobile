@@ -1,0 +1,105 @@
+Token obtido com sucesso.
+
+======================================================================
+ENTIDADE: Processo
+======================================================================
+  pasta                                OK -> 0009093-20.2026.8.16.0045
+  cliente.nome                         OK -> Pacaembu Arapongas 2 - Empreendimento Imobiliarios Ltda.
+  adverso.nome                         OK -> Beatriz Aparecida Marques Borges
+  advogadoCliente.nome                 OK -> Bruno - Escritório RST&A
+  advogadoAdverso.nome                 OK -> Cleodson Rodrigues de Oliveira
+  faseAtual.numero                     OK -> 0009093-20.2026.8.16.0045
+  tipoAcao                             OK -> Ordinário - Conhecimento
+  status                               OK -> Aguardando Citação
+  natureza                             OK -> Cível
+  dataAbertura                         OK -> 17/07/2026
+  valorCausa                           OK -> 60.000,00
+  valorDaCausa                         OK* (campo existe mas vazio nos 20 primeiros)
+  valorProvisionado                    OK -> 60.000,00
+  valorProvisionadoAtualizado          OK* (campo existe mas vazio nos 20 primeiros)
+  possibilidadePerda                   OK* (campo existe mas vazio nos 20 primeiros)
+  posicaoCliente                       OK -> Réu
+  qualificacaoCliente                  OK* (campo existe mas vazio nos 20 primeiros)
+  instanciaFaseAtual                   OK* (campo existe mas vazio nos 20 primeiros)
+  faseAtual.instancia                  OK -> Primeira Instância
+  localidadeFaseAtual                  OK* (campo existe mas vazio nos 20 primeiros)
+  faseAtual.localidade                 OK -> Arapongas
+  numeroVaraFaseAtual                  OK* (campo existe mas vazio nos 20 primeiros)
+  faseAtual.numeroVara                 OK -> 1ª Vara
+  varaFaseAtual                        OK* (campo existe mas vazio nos 20 primeiros)
+  faseAtual.vara                       OK -> Vara Cível
+  responsavel.nome                     OK* (campo existe mas vazio nos 20 primeiros)
+  assunto                              OK -> Vícios Construtivos e muro de arrimo
+  dataDistribuicao                     OK* (campo existe mas vazio nos 20 primeiros)
+  dataCadastro                         OK -> 17/07/2026 17:07
+  objeto                               OK* (campo existe mas vazio nos 20 primeiros)
+  acaoPrincipal                        OK* (campo existe mas vazio nos 20 primeiros)
+  comarca                              OK* (campo existe mas vazio nos 20 primeiros)
+  vara                                 OK* (campo existe mas vazio nos 20 primeiros)
+  orgaoJulgador                        OK* (campo existe mas vazio nos 20 primeiros)
+  situacao                             OK* (campo existe mas vazio nos 20 primeiros)
+  fase.nome                            OK* (campo existe mas vazio nos 20 primeiros)
+  valorAtualizado                      OK* (campo existe mas vazio nos 20 primeiros)
+  valorCondenacao                      OK* (campo existe mas vazio nos 20 primeiros)
+  risco                                OK* (campo existe mas vazio nos 20 primeiros)
+  prognostico                          OK* (campo existe mas vazio nos 20 primeiros)
+  responsavelId                        OK* (campo existe mas vazio nos 20 primeiros)
+  encarregado.nome                     OK* (campo existe mas vazio nos 20 primeiros)
+  areaJuridica                         OK* (campo existe mas vazio nos 20 primeiros)
+
+======================================================================
+ENTIDADE: Atividade
+======================================================================
+  id                                   OK -> 1641672.0
+  prazo_do_encarregado                 OK -> 24/07/2026
+  data                                 OK -> 27/07/2026
+  hora                                 OK* (campo existe mas vazio nos 20 primeiros)
+  encarregado.nome                     OK -> Lawrencce Van Hornn Liberatori da Silva
+  proprietario.nome                    OK -> Nathalia Garcia
+  assunto                              OK -> Especificação de Provas
+  tipoAtividade                        OK -> Compromisso (Prazo)
+  status                               OK -> Não iniciado
+  diasPrazo                            OK -> 5
+  processo.pasta                       OK -> 0015261-72.2025.8.16.0045
+  processo.adverso.nome                OK -> Clayton Fagundes Catarino
+  processo.natureza                    OK -> Cível
+  processo.advogadoCliente.nome        OK -> Bentivegna e Ribeiro Advogados
+  processo.advogadoAdverso.nome        OK -> Celso José Bonifácio Junior
+  processo.valorCausa                  OK* (campo existe mas vazio nos 20 primeiros)
+  processo.tipoAcao                    OK -> Ordinário - Conhecimento
+  descricao                            OK* (campo existe mas vazio nos 20 primeiros)
+  observacao                           OK -> Pendente - aguardando minuta
+  dataConclusao                        OK* (campo existe mas vazio nos 20 primeiros)
+  usuarioResponsavel.nome              OK* (campo existe mas vazio nos 20 primeiros)
+  prioridade                           OK -> Normal
+
+======================================================================
+ENTIDADE: Pessoa
+======================================================================
+  id                                   OK -> 551249.0
+  nome                                 OK -> Beatriz Aparecida Marques Borges
+  cpfCnpj                              OK* (campo existe mas vazio nos 20 primeiros)
+  email                                OK* (campo existe mas vazio nos 20 primeiros)
+  telefone                             OK* (campo existe mas vazio nos 20 primeiros)
+  endereco                             OK* (campo existe mas vazio nos 20 primeiros)
+  tipo                                 OK* (campo existe mas vazio nos 20 primeiros)
+  dataNascimento                       OK* (campo existe mas vazio nos 20 primeiros)
+  profissao                            OK* (campo existe mas vazio nos 20 primeiros)
+  estadoCivil                          OK* (campo existe mas vazio nos 20 primeiros)
+  nacionalidade                        OK* (campo existe mas vazio nos 20 primeiros)
+
+======================================================================
+ENTIDADE: Usuario
+======================================================================
+  id                                   OK -> 9353.0
+  nome                                 OK -> Amanda Carvalho Martins
+  email                                OK -> amanda.carvalho@pacaembu.com
+  login                                OK* (campo existe mas vazio nos 20 primeiros)
+  cargo                                OK* (campo existe mas vazio nos 20 primeiros)
+  departamento                         OK* (campo existe mas vazio nos 20 primeiros)
+  ativo                                OK -> Sim
+  perfil                               OK* (campo existe mas vazio nos 20 primeiros)
+  escritorio.nome                      OK* (campo existe mas vazio nos 20 primeiros)
+
+
+FIM DOS TESTES. Me manda essa lista completa.
