@@ -1,0 +1,17 @@
+{
+  "name": "Pacaembu Prazos",
+  "short_name": "Prazos",
+  "description": "Gestão e Acompanhamento de Prazos Processuais Pacaembu",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#1f6feb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/feathericons/feather/master/icons/calendar.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
