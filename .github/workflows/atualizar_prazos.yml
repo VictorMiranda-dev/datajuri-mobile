@@ -27,6 +27,12 @@ jobs:
         run: |
           pip install requests
 
+      - name: Criar credenciais temporarias
+        run: |
+          echo "export DATAJURI_BASIC_AUTH='${{ secrets.DATAJURI_BASIC_AUTH }}'" >> ~/.zshrc
+          echo "export DATAJURI_USERNAME='${{ secrets.DATAJURI_USERNAME }}'" >> ~/.zshrc
+          echo "export DATAJURI_PASSWORD='${{ secrets.DATAJURI_PASSWORD }}'" >> ~/.zshrc
+
       - name: Consultar API DataJuri e Gerar Dashboard
         env:
           DATAJURI_BASIC_AUTH: ${{ secrets.DATAJURI_BASIC_AUTH }}
